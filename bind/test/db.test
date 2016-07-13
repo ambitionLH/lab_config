@@ -1,0 +1,31 @@
+$TTL    8640
+@       IN      SOA     test. hostmaster.test. (
+                        2006063002      ; serial, todays date + todays serial #
+                        28800           ; refresh, seconds
+                        7200            ; retry, seconds
+                        3600000         ; expire, seconds
+                        86400 )         ; minimum, seconds
+                NS      172.16.0.3.
+                MX      10 172.16.0.3   ; Primary Mail Exchanger
+                A       172.16.0.3
+
+;################# Example #################
+;# dl360-g9-1-ilo      A       172.17.0.10 #
+;###########################################
+;
+; iLO area
+;
+
+;
+; Team_A area
+;
+
+
+;
+; Team_B area
+;
+
+
+;
+; Team_C area
+;

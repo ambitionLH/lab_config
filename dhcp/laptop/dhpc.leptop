@@ -1,0 +1,8 @@
+allow booting;
+allow bootp;
+
+subnet 172.18.0.0 netmask 255.255.0.0{
+   range 172.18.0.10 172.18.255.254
+   option domain-name "test";
+   option routers 172.18.0.1;
+}

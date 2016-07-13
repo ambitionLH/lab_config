@@ -1,0 +1,43 @@
+allow booting;
+allow bootp;
+
+group {
+    option domain-name "admin";
+    use-host-decl-names on;
+}
+
+######################################################
+#   CKOS_China Fixed Asset for admin List Below      #
+######################################################
+
+##################### Example #####################
+###   host longriver{                           ###
+###       hardware ethernet 00:00:00:00:00:00;  ###
+###       fixed-address longriver.admin;        ###
+###   }                                         ###
+###################################################
+
+host longriver{
+    hardware ethernet xxxxxxxxx;
+    fixed-address longriver.admin;
+}
+
+host switch-1-1{
+    hardware ethernet xxxxxx;
+    fixed-address switch-1-1.admin;
+}
+
+host switch-1-2{
+    hardware ethernet xxxxxx;
+    fixed-address switch-1-2.admin;
+}
+
+host switch-1-3{
+    hardware ethernet xxxxxx;
+    fixed-address switch-1-3.admin;
+}
+
+host switch-1-4{
+    hardware ethernet xxxxxx;
+    fixed-address switch-1-4.admin;
+}

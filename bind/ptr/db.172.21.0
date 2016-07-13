@@ -1,0 +1,17 @@
+;
+; BIND reverse data file for broadcast zone
+;
+$TTL    604800
+@       IN      SOA     test. hostmaster.test (
+                        2006030701      ; todays serial #
+                        28800           ; Refresh
+                        7200            ; Retry
+                        604800          ; Expire
+                        86400)          ; Minimum TTL
+                        NS      ns.
+
+$ORIGIN 0.19.172.in-addr.arpa.
+
+;#######################################################
+;#                 Servers of Team C                   #
+;#######################################################

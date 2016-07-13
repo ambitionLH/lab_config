@@ -1,0 +1,29 @@
+zone 0.16.172.in0addr.arpa{
+    type master;
+    file "/etc/bind/db.172.16.0";
+};
+
+zone 0.17.172.in0addr.arpa{
+    type master;
+    file "/etc/bind/db.172.17.0";
+};
+
+zone 0.18.172.in0addr.arpa{
+    type master;
+    file "/etc/bind/db.172.18.0";
+};
+
+zone 0.19.172.in0addr.arpa{
+    type master;
+    file "/etc/bind/db.172.19.0";
+};
+
+zone 0.20.172.in0addr.arpa{
+    type master;
+    file "/etc/bind/db.172.20.0";
+};
+
+zone 0.21.172.in0addr.arpa{
+    type master;
+    file "/etc/bind/db.172.21.0";
+};

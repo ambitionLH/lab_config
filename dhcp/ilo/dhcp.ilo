@@ -1,0 +1,18 @@
+allow booting;
+allow bootp;
+
+group {
+    option domain-name "test";
+    use-host-decl-names on;
+}
+
+######################################################
+#   CKOS_China Fixed Asset for iLO List Below        #
+######################################################
+
+##################### Example #####################
+###   host dl360-g9-1-ilo{                     ###
+###       hardware ethernet 00:00:00:00:00:00;  ###
+###       fixed-address dl360-g9-1-ilo.test;   ###
+###   }                                         ###
+###################################################

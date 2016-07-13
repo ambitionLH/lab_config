@@ -1,0 +1,18 @@
+allow booting;
+allow bootp;
+
+group {
+    option domain-name "test";
+    use-host-decl-names on;
+}
+
+######################################################
+#   CKOS_China Fixed Asset for team b List Below     #
+######################################################
+
+##################### Example #####################
+###   host dl360-g9-b{                          ###
+###       hardware ethernet 00:00:00:00:00:00;  ###
+###       fixed-address dl360-g9-b.test;        ###
+###   }                                         ###
+###################################################
