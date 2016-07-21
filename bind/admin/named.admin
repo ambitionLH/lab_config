@@ -1,4 +1,4 @@
 zone "admin"{
       type master;
-      file "/etc/bind/db.admin";
+      file "/etc/bind/admin/db.admin";
 };
